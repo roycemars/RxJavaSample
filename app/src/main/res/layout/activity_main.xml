@@ -11,6 +11,7 @@
         />
 
     <ImageView android:id="@+id/image"
+        android:src="@drawable/empty"
         android:layout_below="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
