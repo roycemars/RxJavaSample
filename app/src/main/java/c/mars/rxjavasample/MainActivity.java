@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import timber.log.Timber;
+
 
 public class MainActivity extends ActionBarActivity {
 
@@ -13,8 +15,11 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Timber.plant(new Timber.DebugTree());
+
 //        RxSample.runSimpleWithLambdas();
         RxSample.runMapSample();
+        RetrofitSample.run("c-mars");
     }
 
 

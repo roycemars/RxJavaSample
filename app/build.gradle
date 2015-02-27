@@ -30,4 +30,6 @@ dependencies {
     compile 'io.reactivex:rxjava:1.0.7'
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'net.orfjackal.retrolambda:retrolambda:1.8.1'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.jakewharton.timber:timber:2.7.1'
 }

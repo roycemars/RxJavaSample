@@ -87,10 +87,13 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="retrolambda-1.8.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
     <orderEntry type="library" exported="" name="butterknife-6.1.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="rxjava-1.0.7" level="project" />
+    <orderEntry type="library" exported="" name="timber-2.7.1" level="project" />
+    <orderEntry type="library" exported="" name="retrofit-1.9.0" level="project" />
   </component>
 </module>
 
